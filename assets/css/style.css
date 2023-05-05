@@ -1482,3 +1482,69 @@ footer .credits a {
   color: #fff;
 }
 
+.slide-up {
+  animation-name: slide-up;
+  animation-duration: 1s;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* animate on hover */
+/* .slide-up {
+  transform: translateY(100%);
+}
+
+.slide-up:hover {
+  animation-name: slide-up-anim;
+  animation-duration: 1s;
+}
+
+@keyframes slide-up-anim {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+} */
+
+/* bounce  */
+/* .bounce {
+  animation-name: bounce-anim;
+  animation-duration: 1s;
+}
+
+@keyframes bounce-anim {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce:hover {
+  animation-name: bounce-anim;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+} */
+
+/* bounce on hover */
+.bounce {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.bounce:hover {
+  transform: translateY(-20px);
+}
