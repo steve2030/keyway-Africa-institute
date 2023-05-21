@@ -1,10 +1,3 @@
-/**
-* Template Name: DevFolio
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -29,7 +22,10 @@ a {
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-
+.log2{
+  color: wheat;
+  font-weight: bold;
+}
 a:hover {
   color: #0078ff;
   text-decoration: none;
@@ -465,11 +461,15 @@ a:hover {
 }
 
 #header .logo a {
-  color: #fff;
+  color: greenyellow;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 150px;
+  
+}
+.logo3{
+  flex-direction: row;
 }
 
 #header.header-scrolled {
@@ -535,7 +535,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: whitesmoke;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -740,7 +740,7 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: greenyellow;
 }
 
 .hero .hero-content {
@@ -836,6 +836,7 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+
   
 }
 
@@ -1547,4 +1548,20 @@ footer .credits a {
 
 .bounce:hover {
   transform: translateY(-20px);
+}
+.button{
+  height: 2.0rem;
+  background-color: #0062d3;
+  border-radius: 10 px;
+  margin-bottom: 0%;
+  
+
+}
+.project{
+  text-align: center;
+  font-weight: bold;
+  color:wheat;
+  background-color: black;
+  border-radius: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
